@@ -4,13 +4,23 @@
 
 ## Description
 
-Pygol est une bibliothèque Python pour créer des simulations du "jeu de la vie" de Conway.
+Pygol is a Python library for creating simulations of Conway's "Game of Life".
 
-Le jeu de la vie est un automate cellulaire inventé par le mathématicien britannique John Horton Conway en 1970. Il s'agit d'un modèle mathématique où chaque cellule d'une grille bidimensionnelle peut être dans un état mort ou vivant. Les états des cellules évoluent en fonction des états de leurs voisines selon des règles simples.
+The Game of Life is a cellular automaton invented by British mathematician John Horton Conway in 1970. It is a mathematical model in which each cell in a two-dimensional grid can be in a dead or living state. The states of the cells change according to the states of their neighbours, following simple rules.
 
 ## Installation
 
-Pour installer Pygol, vous pouvez utiliser pip :
+The Game of Life is still under development but can be used by cloning its repository and manually installing the dependencies.
+Once cloned, installation is done via Pipenv [https://pipenv.pypa.io/en/latest/] by typing: 
 
 ```bash
-pip install pygol
+pipenv install
+```
+
+And
+
+```bash
+pipenv install --dev
+```
+
+Some examples of how the module works are given in the "demo" notebook.
