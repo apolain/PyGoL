@@ -11,7 +11,7 @@ The Game of Life is a cellular automaton invented by British mathematician John 
 ## Installation
 
 The Game of Life is still under development but can be used by cloning its repository and manually installing the dependencies.
-Once cloned, installation is done via Pipenv [https://pipenv.pypa.io/en/latest/] by typing: 
+Once cloned, installation is done via (Pipenv)[https://pipenv.pypa.io/en/latest/] by typing: 
 
 ```bash
 pipenv install
